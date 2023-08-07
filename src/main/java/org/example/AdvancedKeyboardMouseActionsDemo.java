@@ -76,11 +76,7 @@ public class AdvancedKeyboardMouseActionsDemo {
         // Use click() method to initiate the search
         actions.moveToElement(searchSubmit).click().perform();
 
-        try{
-            sleep(7000);
-        }catch (InterruptedException e){
-            throw new RuntimeException(e);
-        }
+
         driver.close();
     }
 }

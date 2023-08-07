@@ -18,11 +18,7 @@ public class FormFillingDemo {
         driver.findElement(By.id("RegisterForm-email")).sendKeys("bk@gmail.com");
         driver.findElement(By.id("RegisterForm-password")).sendKeys("12345");
         driver.findElement(By.xpath("/html/body/main/div/form/button")).submit();
-        try{
-            sleep(9000);
-        }catch (InterruptedException e){
-            throw new RuntimeException(e);
-        }
+
         driver.close();
 
     }
