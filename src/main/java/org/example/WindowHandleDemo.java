@@ -7,8 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.Set;
 
+import static java.lang.Thread.sleep;
+
 public class WindowHandleDemo {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
 
@@ -28,8 +30,9 @@ public class WindowHandleDemo {
         }
 
         // Perform some UI actions on the New tab
-
+        driver.findElement(By.cssSelector("#main_navbar > ul > li:nth-child(4) > a")).click();
         // Close the tab
+        sleep(2000);
         driver.close();
 
         // Switch back to the original tab
