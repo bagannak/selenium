@@ -1,6 +1,4 @@
 import org.example.AdvancedKeyboardMouseActionsDemo;
-import org.example.Main;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class MainTest {
@@ -8,5 +6,14 @@ public class MainTest {
     public void testKeyMouseAction(){
         AdvancedKeyboardMouseActionsDemo advancedKeyboardMouseActionsDemo = new AdvancedKeyboardMouseActionsDemo();
         advancedKeyboardMouseActionsDemo.keyMouseActions();
+    }
+
+    @Test
+    public void shouldTestSomething(){
+        //Arrange
+        
+        //Act
+            
+        //Assert
     }
 }

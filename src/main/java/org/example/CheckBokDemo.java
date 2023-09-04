@@ -1,6 +1,7 @@
 package org.example;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -13,7 +14,7 @@ import static java.lang.Thread.sleep;
 
 public class CheckBokDemo {
     public static void main(String[] args) throws InterruptedException {
-        ChromeDriver chromeDriver = new ChromeDriver();
+        WebDriver chromeDriver = new ChromeDriver();
         chromeDriver.get("https://htmldog.com/examples/inputcheckboxes/");
         WebDriverWait wait = new WebDriverWait(chromeDriver, Duration.ofSeconds(4));
         WebElement iframe =chromeDriver.findElement(By.cssSelector("#dexOutput > div > samp > iframe"));

@@ -13,6 +13,7 @@ public class JavascriptExecutorDemo {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
 
         // Navigate to the URL
         driver.get("https://web-playground.ultralesson.com/");
@@ -36,6 +37,9 @@ public class JavascriptExecutorDemo {
 
         // Set value to the email input field using JavascriptExecutor
         js.executeScript("arguments[0].value='abc@gmail.com';", emailInputField);
+        WebElement element = driver.findElement(By.cssSelector("#shopify-section-template--15328405749981__featured_products > div > div.center"));
+        js.executeScript("arguments[0].scrollIntoView();",element);
+        js.executeScript("arguments[0].style.border='3px solid red'", element);
         sleep(2000);
         // Fetch the email value from the input field using JavascriptExecutor
         String fetchedEmailValue = js.executeScript("return arguments[0].value;", emailInputField).toString();

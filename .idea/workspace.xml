@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7f0fa12-28f2-40b4-95c4-25bbef7edaf1" name="Changes" comment="added new automation files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ScrollingTechniquesDemo.java" afterDir="false" />
+    <list default="true" id="c7f0fa12-28f2-40b4-95c4-25bbef7edaf1" name="Changes" comment="added new automation(jsExc and scrolling) files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/FluentWaitDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/PlaceOrderScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebTableInteraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPlaceOrderScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Your File Path Here" beforeDir="false" afterPath="$PROJECT_DIR$/Your File Path Here" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CheckBokDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CheckBokDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IframeHandleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IframeHandleDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/JavascriptExecutorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/JavascriptExecutorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ScreenshotDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ScreenshotDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d6d6dcc6-ff83-48ee-84cf-1af5c96a6a35" />
+        <option name="url" value="https://github.com/bagannak/selenium.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2TN2R3dVfnWqNzbLvOruCURka9m" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,15 +62,18 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/testvagrant/Baganna/Selenium&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/testvagrant/Baganna/Selenium/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ScrollingTechniquesDemo">
-    <configuration name="JavascriptExecutorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.JavascriptExecutorDemo" />
+  <component name="RunManager" selected="Application.IframeHandleDemo">
+    <configuration name="CheckBokDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CheckBokDemo" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -58,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButtonInteraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RadioButtonInteraction" />
+    <configuration name="FluentWaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.FluentWaitDemo" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreenshotDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ScreenshotDemo" />
+    <configuration name="IframeHandleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.IframeHandleDemo" />
       <module name="Selenium" />
       <extension name="coverage">
         <pattern>
@@ -84,39 +111,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollingTechniquesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.ScrollingTechniquesDemo" />
+    <configuration name="TestPlaceOrderScript" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPlaceOrderScript" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WindowHandleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WindowHandleDemo" />
+    <configuration name="TestPlaceOrderScript.shouldTestSomething" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestPlaceOrderScript" />
+      <option name="METHOD_NAME" value="shouldTestSomething" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ScrollingTechniquesDemo" />
-        <item itemvalue="Application.JavascriptExecutorDemo" />
-        <item itemvalue="Application.ScreenshotDemo" />
-        <item itemvalue="Application.WindowHandleDemo" />
-        <item itemvalue="Application.RadioButtonInteraction" />
+        <item itemvalue="Application.IframeHandleDemo" />
+        <item itemvalue="Application.CheckBokDemo" />
+        <item itemvalue="TestNG.TestPlaceOrderScript.shouldTestSomething" />
+        <item itemvalue="TestNG.TestPlaceOrderScript" />
+        <item itemvalue="Application.FluentWaitDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -161,14 +185,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691390643165</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added new automation(jsExc and scrolling) files">
+      <option name="closed" value="true" />
+      <created>1691397796208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691397796208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="banfnjfn" />
     <MESSAGE value="added new automation scriptes" />
     <MESSAGE value="added new automation files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new automation files" />
+    <MESSAGE value="added new automation(jsExc and scrolling) files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new automation(jsExc and scrolling) files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -24,7 +24,7 @@ public class ScreenshotDemo {
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
             // Save the screenshot to a file
-            FileUtils.copyFile(screenshot, new File("Your File Path Here"));
+            FileUtils.copyFile(screenshot, new File("/Users/testvagrant/Baganna/screenShot.png"));
             System.out.println("Screenshot saved successfully!");
         } catch (IOException e) {
             System.out.println("Failed to save the screenshot: " + e.getMessage());
