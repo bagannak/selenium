@@ -69,10 +69,8 @@ public class AdvancedKeyboardMouseActionsDemo {
 
         // Use click() method for mouse interaction
         actions.moveToElement(searchIcon).click().perform();
-
         // Use the sendKeys() method for keyboard interaction
         actions.sendKeys(searchBar, "shoes").perform();
-
         // Use click() method to initiate the search
         actions.moveToElement(searchSubmit).click().perform();
 

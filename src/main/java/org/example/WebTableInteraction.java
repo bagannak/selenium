@@ -12,7 +12,7 @@ import static java.lang.Thread.sleep;
 
 public class WebTableInteraction {
     public static void main(String[] args) throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 

@@ -10,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-import static java.lang.Thread.sleep;
 
 public class CheckBokDemo {
     public static void main(String[] args) throws InterruptedException {
@@ -20,21 +19,20 @@ public class CheckBokDemo {
         WebElement iframe =chromeDriver.findElement(By.cssSelector("#dexOutput > div > samp > iframe"));
         wait.until(ExpectedConditions.visibilityOf(iframe));
         chromeDriver.switchTo().frame(iframe);
-        List<WebElement> checkboxs =chromeDriver.findElements(By.cssSelector("[type=checkbox]"));
-//        checkboxs.addAll(chromeDriver.findElements(By.cssSelector("[type=checkbox]")));
-        for (WebElement checkbox : checkboxs) {
-            if(!checkbox.isSelected()){
+        List<WebElement> checkboxes =chromeDriver.findElements(By.cssSelector("[type=checkbox]"));
+//        checkboxes.addAll(chromeDriver.findElements(By.cssSelector("[type=checkbox]")));
+        for (WebElement checkbox : checkboxes)
+            if (!checkbox.isSelected()) {
                 checkbox.click();
 //                sleep(2000);
             }
-        }
-        for (WebElement checkbox : checkboxs) {
-            if(checkbox.isSelected()){
+        //                sleep(2000);
+        for (WebElement checkbox : checkboxes) {
+            if (checkbox.isSelected()) {
                 checkbox.click();
-//                sleep(2000);
             }
         }
-//        System.out.println(checkboxs);
+//        System.out.println(checkboxes);
 
         chromeDriver.close();
     }

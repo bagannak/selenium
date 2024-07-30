@@ -23,7 +23,6 @@ public class IframeHandleDemo {
         chromeDriver.switchTo().frame(iframeElement);
         chromeDriver.findElement(By.xpath("//input[@type=text]")).sendKeys("Hello World");
         chromeDriver.switchTo().parentFrame();
-
         chromeDriver.close();
     }
 }

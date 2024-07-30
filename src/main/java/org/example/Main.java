@@ -2,11 +2,8 @@ package org.example;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import static java.lang.Thread.sleep;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
@@ -28,7 +25,7 @@ public class Main {
 //       driver.navigate().forward();
 
         try{
-            sleep(10000);
+            sleep(5000);
         }catch (InterruptedException e){
             throw new RuntimeException(e);
         }

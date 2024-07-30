@@ -6,14 +6,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
 import static java.lang.Thread.sleep;
 
 public class ScrollingTechniquesDemo {
     public static void main(String[] args) throws InterruptedException {
-        WebDriverManager.chromedriver().setup();
+//        WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-
         // Navigate to the URL
         driver.get("https://web-playground.ultralesson.com/");
 
@@ -33,6 +33,10 @@ public class ScrollingTechniquesDemo {
         js.executeScript("window.scrollBy(0, -500);");
         System.out.println("Successfully scrolled up by 500 pixels");
         sleep(2000);
+
+        //scroll using action api
+//        Actions actions = new Actions(driver);
+//        actions.scrollToElement()
         // Close the browser
         driver.close();
     }

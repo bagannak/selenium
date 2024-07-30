@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +15,7 @@ import static java.lang.Thread.sleep;
 public class StaticDropdownDemo {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://www.globalsqa.com/demo-site/select-dropdown-menu");
         WebElement selectElement = driver.findElement(By.cssSelector("#post-2646 > div.twelve.columns > div > div > div > p > select"));
         Select dropDown = new Select(selectElement);
